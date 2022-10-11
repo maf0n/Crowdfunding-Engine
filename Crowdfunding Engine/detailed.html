@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/reset.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Detailed</title>
+</head>
+
+<body>
+    <header>
+        <div class="site-header-wrap">
+            <div class="site-header-container">
+                <div class="site-header-logo">
+                    <img class="main-logo" src="/img/logo.svg" alt="Site Logo">
+                </div>
+                <div class="site-header-left-wrapper">
+                    <div class="site-header-menu">
+                        <a class="menu-item" href="/index.html">Home</a>
+                        <a class="menu-item" href="/projects.html">Projects</a>
+                        <a class="menu-item" href="/about-us.html">About Us</a>
+                    </div>
+                    <div class="site-header-cta">
+                        <div class="small-base-button">
+                            <a class="small-base-button-text open-popup" href="#">Submit Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__bg">
+                    <div class="popup">
+                        <img class="close-popup" id="close-popup" src="/img/close-popup.png" alt="Icon">
+                        <div class="form-section">
+                            <div class="form-section__header">
+                                <h2 class="h2-title">Submit Your Project</h2>
+                            </div>
+                            <div class="form-fields">
+                                <form action="POST">
+                                    <div class="form-fields__text">
+                                        <p class="form-field-title">Project name*</p>
+                                        <div class="form-field-text-wrapper">
+                                            <input type="text" class="form-preset" name="text"
+                                                value="Cars for volunteers and army" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-fields__columns">
+                                        <div class="form-fields__select">
+                                            <p class="form-field-title">Project category*</p>
+                                            <select class="select" name="project-category" id="project-category"
+                                                required>
+                                                <option value="humanitarian-aid">Humanitarian aid</option>
+                                                <option value="military-aid">Military aid</option>
+                                                <option value="medical-aid">Medical aid</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-fields__text">
+                                            <p class="form-field-title">Project goal*</p>
+                                            <input type="text" class="text-goal" name="text-goal" value="12 500 USD"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="form-fields__textarea">
+                                        <p class="form-field-title">Project description*</p>
+                                        <textarea class="form-preset textarea" name="textarea" id="textarea" cols="50"
+                                            rows="4" required>Buying cars for Mykolaiv volunteers and army.</textarea>
+                                    </div>
+                                    <div class="form-description">
+                                        <p class="form-field-title">*Fields are required to be filled</p>
+                                    </div>
+                                    <div class="small-base-button form-submit">
+                                        <button class="small-base-button-text">Submit
+                                            Project</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content-section">
+        <div class="main-content">
+            <div class="content-section__header single-page-header">
+                <h1 class="h1-title color-neutral-900">Crowdfunding platform with JetEngine</h1>
+            </div>
+            <div class="listing-section__listing-grid single-listing-item">
+                <div class="listing-section__listing-grid-item single-page">
+                    <div class="listing-section__left-wrapper single-page-left-wrapper">
+                        <img class="listing-img single-page-img" src="/img/image-single.png" alt="Listing Image">
+                    </div>
+                    <div class="listing-section__right-wrapper">
+                        <div class="right-wrapper-main-info">
+                            <div class="listing-section-badge red">
+                                <p class="badge-text">Medical aid</p>
+                            </div>
+                            <h2 class="h2-title h2-single-page color-neutral-0">Humanitarian help for Kherson</h2>
+                        </div>
+                        <div class="right-wrapper-secondary-info single-page-right-wrapper">
+                            <div class="secondary-info-goal single-page-info-goal">
+                                <h6 class="h6-listing single-additional body-large">Goal</h6>
+                                <p class="h5-title">12 500 USD</p>
+                            </div>
+                            <div class="secondary-info-raised single-page-info-raised">
+                                <h6 class="h6-listing single-additional-f body-large">Raised</h6>
+                                <p class="h5-title">9 765 USD</p>
+                            </div>
+                        </div>
+                        <div class="right-wrapper-button single-page-listing-button">
+                            <a class="primary-filled-button single-page-listing-button" href="#">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-page-description-section">
+                <div class="single-page-description-title">
+                    <h3 class="h3-title color-neutral-900 single-heading">What is it for?</h3>
+                </div>
+                <div class="single-page-description">
+                    <p class="content-body content-body-single color-neutral-500">The funds will be spent for buying
+                        fuel for humanitarian
+                        aid trucks,
+                        medicines, food, and household goods.<br>
+                        Humanitarian aid for Kherson city and villages, including fuel, medicines, food, and household
+                        goods for citizens.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-site color-neutral-800">
+        <p class="banner-site-text color-neutral-0">Each set can <span class="banner-main-text">save the lives of
+                Ukrainian
+                Heroes.</span> We will win! Glory to Ukraine!</p>
+    </div>
+    <footer>
+        <div class="site-footer-wrap">
+            <div class="footer-divider"></div>
+            <div class="footer-heading">
+                <h5 class="h5-title color-neutral-900">Useful Tutorials</h5>
+            </div>
+            <div class="footer-content">
+                <p class="content-body color-neutral-400">How to create WordPress crowdfunding platform with Crocoblock
+                </p>
+                <p class="content-body color-neutral-400">How to build and showcase content in a grid layout with
+                    JetEngine
+                </p>
+                <p class="content-body color-neutral-400">How to create a custom post type with JetEngine</p>
+                <p class="content-body color-neutral-400">How to configure payment gateways with JetFormBuilder</p>
+                <p class="content-body color-neutral-400">How to create a WordPress single post page template with
+                    JetThemeCore</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
